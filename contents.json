@@ -1,5 +1,54 @@
 [
   {
+    "type": "Runtime",
+    "verName": "Visual C++ x64",
+    "verCode": "1",
+    "remoteUrl": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
+  },
+
+  {
+    "type": "Runtime",
+    "verName": "Visual C++ x86",
+    "verCode": "1",
+    "remoteUrl": "https://aka.ms/vs/17/release/vc_redist.x86.exe"
+  },
+
+  {
+    "type": "Runtime",
+    "verName": "Visual C++ ARM64",
+    "verCode": "1",
+    "remoteUrl": "https://aka.ms/vs/17/release/vc_redist.arm64.exe"
+  },
+
+  {
+    "type": "Runtime",
+    "verName": "Wine Mono 11.1.0",
+    "verCode": "1",
+    "remoteUrl": "https://dl.winehq.org/wine/wine-mono/11.1.0/wine-mono-11.1.0-x86.msi"
+  },
+
+  {
+    "type": "Runtime",
+    "verName": "Wine Gecko 2.47.4",
+    "verCode": "1",
+    "remoteUrl": "https://dl.winehq.org/wine/wine-gecko/2.47.4/wine-gecko-2.47.4-x86.msi"
+  },
+
+  {
+    "type": "Runtime",
+    "verName": "DirectX (June 2010)",
+    "verCode": "1",
+    "remoteUrl": "https://download.microsoft.com/download/8/4/a/84a35bf1-dafe-4ae8-82af-ad2ae20b6b14/directx_Jun2010_redist.exe"
+  },
+
+  {
+    "type": "Runtime",
+    "verName": "PhysX Legacy",
+    "verCode": "1",
+    "remoteUrl": "https://us.download.nvidia.com/Windows/9.13.0604/PhysX-9.13.0604-SystemSoftware-Legacy.msi"
+  },
+
+  {
     "type": "Wine",
     "verName": "proton-10-arm64ec",
     "verCode": "1",
