@@ -1,4 +1,12 @@
 [
+  
+  {
+    "type": "Runtime",
+    "verName": "Ajay Prefix Pro v1.7.1",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/ajay9634/Ajay-prefix/releases/download/v1.7.1_offline/Ajay_Prefix_Pro_v1.7.1_offline_Installer.exe"
+  },
+
   {
     "type": "Runtime",
     "verName": "Visual C++ x64",
