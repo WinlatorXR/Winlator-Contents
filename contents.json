@@ -30,13 +30,6 @@
 
   {
     "type": "Runtime",
-    "verName": "DirectX (June 2010)",
-    "verCode": "1",
-    "remoteUrl": "https://download.microsoft.com/download/8/4/a/84a35bf1-dafe-4ae8-82af-ad2ae20b6b14/directx_Jun2010_redist.exe"
-  },
-
-  {
-    "type": "Runtime",
     "verName": "PhysX Legacy",
     "verCode": "1",
     "remoteUrl": "https://us.download.nvidia.com/Windows/9.13.0604/PhysX-9.13.0604-SystemSoftware-Legacy.msi"
