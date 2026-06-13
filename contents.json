@@ -1,7 +1,7 @@
 [
   {
     "type": "Wine",
-    "verName": "wine-11.3-x86_64",
+    "verName": "wine-11.3-arm64ec",
     "verCode": "0",
     "remoteUrl": "https://github.com/Xnick417x/winlator-nightly-wcp/releases/download/Wine/wine-11.3-x86_64.wcp"
   },
