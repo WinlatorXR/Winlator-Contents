@@ -1,6 +1,20 @@
 [
   
   {
+    "type": "DXVK",
+    "verName": "2.7.3-vegas",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/isygold/vegas-releases/releases/download/v2.7.3-vegas-stable/vegas-2.7.3-ff4c1fe.wcp"
+  },
+
+  {
+    "type": "DXVK",
+    "verName": "1.11.2-sarek-vegas",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/isygold/vegas-releases/releases/download/v1.11.2-3299d2a/vegas-1.11.2-3299d2a.wcp"
+  },
+
+  {
     "type": "Wine",
     "verName": "wine-11.3-arm64ec",
     "verCode": "0",
