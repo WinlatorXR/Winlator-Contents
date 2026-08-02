@@ -118,6 +118,13 @@
     "verCode": "1",
     "remoteUrl": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.2-fix.wcp"
   },
+
+ {
+    "type": "Box64",
+    "verName": "0.4.4",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/Box64/box64-0.4.4.wcp"
+  },
   
   {
   "type": "WOWBox64",
@@ -145,6 +152,13 @@
   "verName": "0.4.2",
   "verCode": "1",
   "remoteUrl": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/wowbox64-0.4.2.wcp"
+  },
+
+ {
+  "type": "WOWBox64",
+  "verName": "0.4.4",
+  "verCode": "1",
+  "remoteUrl": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/WOWBox64/Wowbox64-0.4.4.wcp"
   },
 
   {
@@ -180,6 +194,13 @@
     "verName": "11.1-sarek-async",
     "verCode": "1",
     "remoteUrl": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-11.1-sarek-async.wcp"
+  },
+
+ {
+    "type": "DXVK",
+    "verName": "1.12.0-sarek",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/DXVK/dxvk-sarek-1.12.0.wcp"
   },
   
   {
@@ -386,11 +407,17 @@
     "remoteUrl": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-arm64ec-3.0a.wcp"
   },
   
-  {
+    {
     "type": "VKD3D",
     "verName": "proton-3.0b-2763dd2",
     "verCode": "0",
     "remoteUrl": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-proton-3.0b-2763dd2.wcp"
+  },
+
+  {
+    "type": "VKD3D",
+    "verName": "3.0.1-gamesir",
+    "verCode": "0",
+    "remoteUrl": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-3.0.1-Gamesir.wcp"
   }
-  
 ]
