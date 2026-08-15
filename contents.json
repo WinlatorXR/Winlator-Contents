@@ -13,6 +13,55 @@
     "verCode": "1",
     "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/raw/refs/heads/main/DXVK/vegas-1.11.2-3299d2a.wcp"
   },
+  {
+    "type": "DXVK",
+    "verName": "2.7.1-binsem",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-2.7.1-binsem.wcp"
+  },
+  {
+    "type": "DXVK",
+    "verName": "2.7.1-binsem-gplasync",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-2.7.1-1-binsem.wcp"
+  },
+  {
+    "type": "DXVK",
+    "verName": "3.0.2-binsem",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK/dxvk-3.0.2-binsem.wcp"
+  },
+  {
+    "type": "DXVK",
+    "verName": "3.0.1-binsem-gplasync",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC/dxvk-gplasync-3.0-1-binsem.wcp"
+  },
+
+  {
+    "type": "DXVK",
+    "verName": "2.7.1-binsem-arm64ec",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-ARM64EC/dxvk-arm64ec-2.7.1-binsem.wcp"
+  },
+  {
+    "type": "DXVK",
+    "verName": "2.7.1-binsem-gplasync-arm64ec",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC-ARM64EC/dxvk-gplasync-arm64ec-2.7.1-1-binsem.wcp"
+  },
+  {
+    "type": "DXVK",
+    "verName": "3.0.2-binsem-arm64ec",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-ARM64EC/dxvk-arm64ec-3.0.2-binsem.wcp"
+  },
+  {
+    "type": "DXVK",
+    "verName": "3.0.1-binsem-gplasync-arm64ec",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/Arihany/WinlatorWCPHub/releases/download/DXVK-GPLASYNC-ARM64EC/dxvk-gplasync-arm64ec-3.0-1-binsem.wcp"
+  },
 
   {
     "type": "Wine",
