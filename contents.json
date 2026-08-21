@@ -65,6 +65,13 @@
 
   {
     "type": "Wine",
+    "verName": "proton-10-arm64ec-controller-fix",
+    "verCode": "0",
+    "remoteUrl": "https://github.com/K11MCH1/Winlator101/releases/download/wine_col/proton-10-arm64ec-controller-fix.wcp"
+  },
+
+  {
+    "type": "Wine",
     "verName": "wine-11.3-arm64ec",
     "verCode": "0",
     "remoteUrl": "https://github.com/Xnick417x/winlator-nightly-wcp/releases/download/Wine/wine-11.3-x86_64.wcp"
@@ -105,13 +112,6 @@
     "remoteUrl": "https://us.download.nvidia.com/Windows/9.13.0604/PhysX-9.13.0604-SystemSoftware-Legacy.msi"
   },
 
-  {
-    "type": "Wine",
-    "verName": "proton-10-arm64ec",
-    "verCode": "1",
-    "remoteUrl": "https://github.com/StevenMXZ/Winlator-Contents/releases/download/1.0/proton-10-arm64ec.wcp.xz"
-  },
-  
   {
     "type": "Wine",
     "verName": "wine-9.20-x86_64",
