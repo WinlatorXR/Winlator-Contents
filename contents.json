@@ -481,5 +481,12 @@
     "verName": "3.0.1-gamesir",
     "verCode": "0",
     "remoteUrl": "https://github.com/StevenMXZ/Winlator-Contents/raw/refs/heads/main/VKD3D/vkd3d-3.0.1-Gamesir.wcp"
+  },
+  
+  {
+    "type": "Goldberg",
+    "verName": "release-2026_08_23",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/Goldberg/Goldberg-release-2026_08_23-1.wcp"
   }
 ]
