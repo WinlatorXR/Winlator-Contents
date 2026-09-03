@@ -125,6 +125,13 @@
   "verCode": "1",
   "remoteUrl": "https://dl.winehq.org/wine/wine-mono/11.3.0/wine-mono-11.3.0-x86.msi"
 },
+  
+  {
+  "type": "Runtime",
+  "verName": "Wine Mono 11.3.0 arm64",
+  "verCode": "1",
+  "remoteUrl": "https://dl.winehq.org/wine/wine-mono/11.3.0/wine-mono-11.3.0-arm64.msi"
+  },
 
   {
     "type": "Wine",
