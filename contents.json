@@ -118,6 +118,13 @@
     "verCode": "1",
     "remoteUrl": "https://us.download.nvidia.com/Windows/9.13.0604/PhysX-9.13.0604-SystemSoftware-Legacy.msi"
   },
+  
+  {
+  "type": "Runtime",
+  "verName": "Wine Mono 11.3.0 x86",
+  "verCode": "1",
+  "remoteUrl": "https://dl.winehq.org/wine/wine-mono/11.3.0/wine-mono-11.3.0-x86.msi"
+},
 
   {
     "type": "Wine",
