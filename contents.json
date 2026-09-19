@@ -509,5 +509,20 @@
     "verName": "Goldberg Steam Emulator",
     "verCode": "1",
     "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/Goldberg/Goldberg-release-2026_08_23-1.wcp"
-  }
+  },
+
+  {
+    "type": "Goldberg",
+    "versionName": "GBE Goldberg Steam Emulator",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/Goldberg/GBE_Goldberg_Regular.wcp"
+},
+
+  {
+    "type": "Goldberg",
+    "versionName": "GBE Experimental Goldberg Steam Emulator",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/Goldberg/GBE_Goldberg_Experimental.wcp"
+}
+
 ]
