@@ -85,6 +85,13 @@
   },
 
   {
+    "type": "Proton",
+    "verName": "proton-11.0-2-arm64ec-wxr",
+    "verCode": "0",
+    "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/proton-builds/proton-11.0-2-arm64ec-wxr.wcp"
+  },
+
+  {
     "type": "Runtime",
     "verName": "Ajay Prefix Pro v1.8",
     "verCode": "1",
