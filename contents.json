@@ -86,9 +86,9 @@
 
   {
     "type": "Proton",
-    "verName": "proton-11.0-2-arm64ec-wxr",
+    "verName": "proton-11.0-2-arm64ec-wxr-vr",
     "verCode": "0",
-    "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/proton-builds/proton-11.0-2-arm64ec-wxr.wcp"
+    "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/proton-builds/proton-11.0-2-arm64ec-wxr-vr.wcp"
   },
 
   {
