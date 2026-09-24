@@ -530,6 +530,20 @@
     "verName": "GBE Experimental Goldberg Steam Emulator",
     "verCode": "1",
     "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/Goldberg/GBE_Goldberg_Experimental.wcp"
-  }
+  },
 
+  {
+    "type": "OXRWXR_&_OpenComposite",
+    "verName": "OXRWXR_v23",
+    "verCode": "23",
+    "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/OXRWXR_%26_OpenComposite/OXRWXR_v23.wcp"
+  },
+
+  {
+    "type": "OXRWXR_&_OpenComposite",
+    "verName": "OpenComposite_v14",
+    "verCode": "14",
+    "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/OXRWXR_%26_OpenComposite/OpenComposite_v14.wcp"
+  }
+  
 ]
