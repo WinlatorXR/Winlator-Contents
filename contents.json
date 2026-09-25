@@ -533,14 +533,14 @@
   },
 
   {
-    "type": "OXRWXR_&_OpenComposite",
+    "type": "OXRWXR",
     "verName": "OXRWXR_v23",
     "verCode": "23",
     "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/OXRWXR_%26_OpenComposite/OXRWXR_v23.wcp"
   },
 
   {
-    "type": "OXRWXR_&_OpenComposite",
+    "type": "OpenComposite",
     "verName": "OpenComposite_v14",
     "verCode": "14",
     "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/OXRWXR_%26_OpenComposite/OpenComposite_v14.wcp"
