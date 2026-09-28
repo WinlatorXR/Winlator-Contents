@@ -553,9 +553,9 @@
   },
 
    {
-    "type": "Mods",
-    "verName": "Farcry vrmod WinlatorXR",
-    "verCode": "1",
+    "type": "Mod",
+    "verName": "Farcry_vrmod-WinlatorXR",
+    "verCode": "0",
     "remoteUrl": "https://github.com/SgtBilko76/Farcry_vrmod-WinlatorXR/releases/download/quest-beta-0.3/FarCryVR-Dawn-0.3.zip"
   }
   
