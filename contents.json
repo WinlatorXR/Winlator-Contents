@@ -558,6 +558,14 @@
     "verCode": "3",
     "remoteUrl": "https://github.com/SgtBilko76/Farcry_vrmod-WinlatorXR/releases/download/quest-beta-0.3/FarCryVR-Dawn-0.3.zip",
     "game": "Far Cry"  
+  },
+
+    {
+    "type": "Mod",
+    "verName": "BFVR-Quest-Dawn-Beta3",
+    "verCode": "3",
+    "remoteUrl": "https://github.com/SgtBilko76/Battlefield-1942-WinlatorXR/releases/download/quest-beta3/BFVR-Quest-Dawn-Beta3.zip",
+    "game": "Battlefield 1942"  
   }
-  
+
 ]
