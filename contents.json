@@ -519,22 +519,29 @@
   
   {
     "type": "Goldberg",
-    "verName": "Goldberg Steam Emulator",
+    "verName": "release-2026_08_23",
     "verCode": "1",
-    "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/Goldberg/Goldberg-release-2026_08_23-1.wcp"
+    "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/Goldberg/GBE_Goldberg_Regular-2026_08_23-1.wcp"
   },
 
+   {
+    "type": "Goldberg",
+    "verName": "Goldberg ColdClientLoader 2026_09_27",
+    "verCode": "1",
+    "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/Goldberg/Goldberg-ColdClientLoader-2026_09_27-1.wcp"
+  },
+   
   {
     "type": "Goldberg",
     "verName": "GBE Goldberg Steam Emulator",
-    "verCode": "1",
+    "verCode": "2",
     "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/Goldberg/GBE_Goldberg_Regular.wcp"
   },
 
   {
     "type": "Goldberg",
     "verName": "GBE Experimental Goldberg Steam Emulator",
-    "verCode": "1",
+    "verCode": "2",
     "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/Goldberg/GBE_Goldberg_Experimental.wcp"
   },
 
