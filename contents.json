@@ -551,5 +551,12 @@
     "verCode": "19",
     "remoteUrl": "https://github.com/WinlatorXR/Winlator-Contents/releases/download/OXRWXR_%26_OpenComposite/OpenComposite_v19.wcp"
   }
+
+   {
+    "type": "Mod",
+    "verName": "Farcry_vrmod-WinlatorXR",
+    "verCode": "0",
+    "remoteUrl": " https://github.com/SgtBilko76/Farcry_vrmod-WinlatorXR/releases/download/quest-beta-0.3/FarCryVR-Dawn-0.3.zip"
+  }
   
 ]
