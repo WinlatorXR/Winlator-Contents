@@ -564,8 +564,7 @@
     "verName": "FarCryVR-Dawn-0.3",
     "verCode": "3",
     "remoteUrl": "https://github.com/SgtBilko76/Farcry_vrmod-WinlatorXR/releases/download/quest-beta-0.3/FarCryVR-Dawn-0.3.zip",
-    "game": "Far Cry",
-    "container" "proton-9_0-1-x86_64"
+    "game": "Far Cry"
   },
 
     {
