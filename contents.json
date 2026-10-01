@@ -127,6 +127,20 @@
 
   {
     "type": "Runtime",
+    "verName": "Microsoft .NET Desktop Runtime 6.0.36 x64",
+    "verCode": "1",
+    "remoteUrl": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/6.0.36/windowsdesktop-runtime-6.0.36-win-x64.exe"
+  },
+
+  {
+    "type": "Runtime",
+    "verName": "Microsoft .NET Desktop Runtime 6.0.36 x86",
+    "verCode": "1",
+    "remoteUrl": "https://builds.dotnet.microsoft.com/dotnet/WindowsDesktop/6.0.36/windowsdesktop-runtime-6.0.36-win-x86.exe"
+  },
+
+  {
+    "type": "Runtime",
     "verName": "PhysX Legacy",
     "verCode": "1",
     "remoteUrl": "https://us.download.nvidia.com/Windows/9.13.0604/PhysX-9.13.0604-SystemSoftware-Legacy.msi"
