@@ -1,0 +1,463 @@
+{
+  "version": 3,
+  "exes": {
+    "Fallout4VR.exe": "611660",
+    "f4sevr_loader.exe": "611660",
+    "hlvr.exe": "546560",
+    "DarkSoulsIII.exe": "374320",
+    "sekiro.exe": "814380",
+    "NieRAutomata.exe": "524220",
+    "Titanfall2.exe": "1237970",
+    "teardown.exe": "1167630",
+    "FarCry4.exe": "298110",
+    "witcher2.exe": "20920",
+    "prototype2.exe": "115320"
+  },
+  "fixes": [
+    {
+      "label": "Stop OpenSSL crashing on newer CPU features",
+      "env": {
+        "OPENSSL_ia32cap": "~0x20000000"
+      },
+      "games": {
+        "285190": "Warhammer 40,000: Dawn of War III",
+        "366870": "Narcosis",
+        "386360": "SMITE",
+        "392110": "ENDLESS Space 2",
+        "399810": "Call of Cthulhu",
+        "406970": "The Uncertain: Last Quiet Day",
+        "415200": "Motorsport Manager",
+        "420290": "Blackwake",
+        "425670": "Seraph",
+        "433100": "The Town of Light",
+        "433530": "Heliborne - Enhanced Edition",
+        "437630": "State of Mind",
+        "442780": "STRAFE: Gold Edition",
+        "447020": "Farming Simulator 17",
+        "451520": "theBlu: Season 1",
+        "463150": "BARRIER X",
+        "469610": "Rick and Morty: Virtual Rick-ality",
+        "485030": "PLANET ALPHA",
+        "487720": "Agony",
+        "492230": "Space Hulk: Tactics",
+        "521890": "Hello Neighbor",
+        "535850": "Micro Machines World Series",
+        "544920": "Darwin Project",
+        "551770": "ECHO",
+        "556180": "Mysterium: A Psychic Clue Game",
+        "558260": "Gravel",
+        "561600": "MXGP3 - The Official Motocross Videogame",
+        "649950": "Ashen",
+        "661920": "Claybook",
+        "682990": "Drug Dealer Simulator",
+        "711750": "Monster Energy Supercross - The Official Videogame",
+        "748360": "MY HERO ONE'S JUSTICE",
+        "759740": "RIDE 3",
+        "775900": "MotoGP18",
+        "783170": "INSOMNIA: The Ark",
+        "798290": "MXGP PRO",
+        "824280": "Monster Jam Steel Titans",
+        "834280": "Fishing Sim World: Pro Tour",
+        "879420": "Agony UNRATED",
+        "882020": "Monster Energy Supercross - The Official Videogame 2",
+        "890880": "FROSTBITE: Deadly Climate",
+        "967390": "Chronos: Before the Ashes",
+        "968870": "Close to the Sun",
+        "996580": "Spyro Reignited Trilogy",
+        "1029890": "Layers of Fear 2 (2019)",
+        "1051200": "Trover Saves the Universe",
+        "1052070": "Burning Daylight",
+        "1055610": "Deep Space Battle Simulator",
+        "1058450": "MY HERO ONE'S JUSTICE 2",
+        "1092660": "Blair Witch",
+        "1096570": "SONG OF HORROR COMPLETE EDITION",
+        "1133320": "Westworld Awakening",
+        "1150080": "Azur Lane: Crosswave",
+        "1195460": "Last Year",
+        "1237970": "Titanfall® 2",
+        "1342260": "SAMURAI SHODOWN"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Stop OpenSSL crashing under FEX (WXR wider mask, try if the one above fails)",
+      "env": {
+        "OPENSSL_ia32cap": "~0x1000020000000000:~0x20000020"
+      },
+      "games": {
+        "285190": "Warhammer 40,000: Dawn of War III",
+        "366870": "Narcosis",
+        "386360": "SMITE",
+        "392110": "ENDLESS Space 2",
+        "399810": "Call of Cthulhu",
+        "406970": "The Uncertain: Last Quiet Day",
+        "415200": "Motorsport Manager",
+        "420290": "Blackwake",
+        "425670": "Seraph",
+        "433100": "The Town of Light",
+        "433530": "Heliborne - Enhanced Edition",
+        "437630": "State of Mind",
+        "442780": "STRAFE: Gold Edition",
+        "447020": "Farming Simulator 17",
+        "451520": "theBlu: Season 1",
+        "463150": "BARRIER X",
+        "469610": "Rick and Morty: Virtual Rick-ality",
+        "485030": "PLANET ALPHA",
+        "487720": "Agony",
+        "492230": "Space Hulk: Tactics",
+        "521890": "Hello Neighbor",
+        "522020": "Blue Effect VR",
+        "535850": "Micro Machines World Series",
+        "544920": "Darwin Project",
+        "551770": "ECHO",
+        "556180": "Mysterium: A Psychic Clue Game",
+        "558260": "Gravel",
+        "561600": "MXGP3 - The Official Motocross Videogame",
+        "649950": "Ashen",
+        "661920": "Claybook",
+        "682990": "Drug Dealer Simulator",
+        "711750": "Monster Energy Supercross - The Official Videogame",
+        "748360": "MY HERO ONE'S JUSTICE",
+        "759740": "RIDE 3",
+        "775900": "MotoGP18",
+        "783170": "INSOMNIA: The Ark",
+        "798290": "MXGP PRO",
+        "824280": "Monster Jam Steel Titans",
+        "834280": "Fishing Sim World: Pro Tour",
+        "879420": "Agony UNRATED",
+        "882020": "Monster Energy Supercross - The Official Videogame 2",
+        "890880": "FROSTBITE: Deadly Climate",
+        "967390": "Chronos: Before the Ashes",
+        "968870": "Close to the Sun",
+        "996580": "Spyro Reignited Trilogy",
+        "1029890": "Layers of Fear 2 (2019)",
+        "1051200": "Trover Saves the Universe",
+        "1052070": "Burning Daylight",
+        "1055610": "Deep Space Battle Simulator",
+        "1058450": "MY HERO ONE'S JUSTICE 2",
+        "1092660": "Blair Witch",
+        "1096570": "SONG OF HORROR COMPLETE EDITION",
+        "1133320": "Westworld Awakening",
+        "1150080": "Azur Lane: Crosswave",
+        "1195460": "Last Year",
+        "1237970": "Titanfall® 2",
+        "1342260": "SAMURAI SHODOWN"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "Use the game's own ddraw.dll",
+      "dlls": {
+        "ddraw": "n,b"
+      },
+      "games": {
+        "500810": "Arcanum",
+        "4249100": "Resident Evil (1996)",
+        "4249110": "Resident Evil 2 (1998)",
+        "4249130": "Dino Crisis",
+        "4249150": "Breath of Fire IV"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Use the game's own dinput.dll",
+      "dlls": {
+        "dinput": "n,b"
+      },
+      "games": {
+        "3780660": ""
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Use the game's own winmm.dll",
+      "dlls": {
+        "winmm": "n,b"
+      },
+      "games": {
+        "2471120": ""
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Disable GameInput",
+      "dlls": {
+        "gameinput": "d"
+      },
+      "games": {
+        "1928420": ""
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Only offer 16-bit display modes",
+      "env": {
+        "PROTON_LIMIT_RESOLUTIONS": "16"
+      },
+      "games": {
+        "39540": "SpellForce: Platinum Edition"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Only offer 32-bit display modes",
+      "env": {
+        "PROTON_LIMIT_RESOLUTIONS": "32"
+      },
+      "games": {
+        "229480": "Dungeons & Dragons: Chronicles of Mystara",
+        "357190": "Ultimate Marvel vs Capcom 3",
+        "374320": "DARK SOULS III",
+        "524220": "NieR: Automata",
+        "730830": "Escape from Monkey Island",
+        "814380": "Sekiro: Shadows Die Twice"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Hide Mono types",
+      "env": {
+        "WINE_MONO_HIDETYPES": "1"
+      },
+      "games": {
+        "1183470": "Imperiums: Greek Wars"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Stop mimalloc redirecting allocations",
+      "env": {
+        "MIMALLOC_DISABLE_REDIRECT": "1"
+      },
+      "games": {
+        "1167630": "Teardown"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Limit address space",
+      "env": {
+        "PROTON_LIMIT_ADDRESS_SPACE": "1"
+      },
+      "games": {
+        "1282270": "",
+        "2963870": ""
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Limit the game to 1 CPU",
+      "env": {
+        "WINE_CPU_TOPOLOGY": "1"
+      },
+      "games": {
+        "2229830": "Command & Conquer and The Covert Operations"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Limit the game to 4 CPUs",
+      "env": {
+        "WINE_CPU_TOPOLOGY": "4"
+      },
+      "games": {
+        "11440": "DiRT",
+        "618970": "Outcast - Second Contact"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Limit the game to 8 CPUs",
+      "env": {
+        "WINE_CPU_TOPOLOGY": "8"
+      },
+      "games": {
+        "10150": "Prototype",
+        "15620": "Warhammer 40,000: Dawn of War II",
+        "20570": "Warhammer 40,000: Dawn of War II - Chaos Rising",
+        "56400": "Warhammer 40,000: Dawn of War II - Retribution",
+        "115320": "Prototype 2",
+        "259170": "Alone in the Dark (2008)"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Limit the game to 16 CPUs",
+      "env": {
+        "WINE_CPU_TOPOLOGY": "16"
+      },
+      "games": {
+        "19900": "Far Cry 2",
+        "20920": "The Witcher 2: Assassins of Kings Enchanced Edition",
+        "35130": "Lara Croft and the Guardian of Light",
+        "55150": "Warhammer 40,000: Space Marine",
+        "65540": "Gothic 1 Classic",
+        "204450": "Call of Juarez: Gunslinger",
+        "298110": "Far Cry 4",
+        "316260": "Disney Universe"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Limit the game to 28 CPUs",
+      "env": {
+        "WINE_CPU_TOPOLOGY": "28"
+      },
+      "games": {
+        "70000": "Dino D-Day"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Limit the game to 30 CPUs",
+      "env": {
+        "WINE_CPU_TOPOLOGY": "30"
+      },
+      "games": {
+        "286810": "Hard Truck Apocalypse: Rise of Clans / Ex Machina: Meridian 113"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Limit the game to performance cores",
+      "env": {
+        "WINE_CPU_TOPOLOGY": "P"
+      },
+      "games": {
+        "1038250": "DIRT 5"
+      },
+      "source": "Proton 5b89db94"
+    },
+    {
+      "label": "Start in VR on the lowest graphics settings and merge small memory mappings",
+      "args": "-vr -novid +vr_fidelity_level_auto 0 +vr_fidelity_level 0 +vr_msaa 0 +volume_fog_disable 1",
+      "mapMergeShim": true,
+      "games": {
+        "546560": "Half-Life: Alyx"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "Start through Goldberg's ColdClientLoader (the exe will not start without Steam running)",
+      "goldberg": "coldclient",
+      "games": {
+        "611660": "Fallout 4 VR",
+        "1363430": "Propagation VR",
+        "543390": "Aeon",
+        "513320": "Alice VR",
+        "244210": "Asseto Corsa",
+        "502820": "Batman Arkham VR",
+        "629730": "Blade and Sorcery",
+        "449640": "Bloody Zombies VR",
+        "823500": "Boneworks",
+        "396900": "GRIP: Combat Racing",
+        "747350": "Hellblade: Senua's Sacrifice VR Edition",
+        "611160": "Karnage Chronicles",
+        "1683340": "Kayak VR: Mirage",
+        "522200": "Loading Human",
+        "1107340": "LONN",
+        "762490": "Naked Sun",
+        "598070": "Nevrosa: Prelude",
+        "378860": "Project Cars 2",
+        "958400": "Project Cars 3",
+        "429180": "Project Cars - Pagani Edition",
+        "365960": "RFactor 2",
+        "611670": "The Elder Scrolls V: Skyrim VR",
+        "1222730": "Star Wars Squadrons (steam)",
+        "936720": "Wrench",
+        "1056970": "Wolfenstein Cyberpilot",
+        "1133320": "Westworld Awakening"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "Replace the game's steam_api DLL with Goldberg's (the game will not run without Steam)",
+      "goldberg": "steam_api",
+      "games": {
+        "859640": "Along together",
+        "620980": "Beat Saber",
+        "490490": "Blasters of the universe",
+        "991260": "Borderlands 2 VR",
+        "750010": "Combat Tested",
+        "2609610": "ConVRgence",
+        "744750": "Devil and the fairy",
+        "233610": "Distance",
+        "328590": "Don't knock twice",
+        "664090": "Eternity Warriors VR",
+        "1429640": "Hinge VR",
+        "754530": "IL-2 Sturmovik Cliffs of Dover Blitz",
+        "382360": "John wick Chronicles",
+        "2318280": "Memories From Beyond a Coral Sea",
+        "864970": "NIGHTSTAR: Alliance",
+        "906120": "POLYBIUS",
+        "788690": "Psychonauts in the Rhombus of Ruin",
+        "517710": "Redout: Enhanced Edition",
+        "517160": "Richie's Plank Experience",
+        "859340": "Seeking Dawn",
+        "564310": "Serious Sam FUSION",
+        "264710": "Subnautica",
+        "3025280": "Swingmania"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "Start in VR",
+      "args": "-vr",
+      "games": {
+        "396750": "Everspace",
+        "396900": "GRIP: Combat Racing",
+        "602480": "Kartong Death by cardboard",
+        "517710": "Redout: Enhanced Edition",
+        "936720": "Wrench"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "Start in VR",
+      "args": "-SSVR",
+      "games": {
+        "475190": "Scanner Sombre"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "Set up as a PC VR game (it is not detected as one)",
+      "pcvr": true,
+      "games": {
+        "770990": "Blade Runner 9732"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "Pushing a thumbstick presses the touchpad (the game needs the stick clicked in to move)",
+      "pcvrStickTouchpad": true,
+      "games": {
+        "543390": "Aeon",
+        "406860": "Blind",
+        "602480": "Kartong Death by cardboard",
+        "522200": "Loading Human",
+        "859340": "Seeking Dawn",
+        "1133320": "Westworld Awakening"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "Use the game window instead of direct PC VR frames (OpenGL game)",
+      "pcvrDirect": false,
+      "games": {
+        "348250": "Google Earth VR",
+        "906120": "POLYBIUS",
+        "3025280": "Swingmania"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "Use the Oculus Touch controller type",
+      "pcvrController": "/oculus/touch_controller",
+      "games": {
+        "1036260": "Journey for Elysium"
+      },
+      "source": "WinlatorXR"
+    }
+  ]
+}
