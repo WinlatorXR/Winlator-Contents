@@ -330,7 +330,7 @@
     },
     {
       "label": "Start in VR on the lowest graphics settings and merge small memory mappings",
-      "args": "-vr +vr_fidelity_level_auto 0 +vr_fidelity_level 0",
+      "args": "-vr +vr_fidelity_level_auto 0 +vr_fidelity_level 3",
       "mapMergeShim": true,
       "games": {
         "546560": "Half-Life: Alyx"
