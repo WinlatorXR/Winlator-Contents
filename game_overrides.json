@@ -368,6 +368,7 @@
         "1056970": "Wolfenstein Cyberpilot",
         "1066890": "Automobilista 2",
         "2421750": "Gunman Contracts - Stand Alone",
+        "1378990": "Crash Bandicoot 4: It's About Time"
         "1133320": "Westworld Awakening"
       },
       "source": "WinlatorXR"
@@ -400,9 +401,18 @@
         "264710": "Subnautica",
         "460790": "Bayonetta",
         "3025280": "Swingmania"
+        "1285920": "VR Skater"
       },
       "source": "WinlatorXR"
     },
+    {                                                                                                                                                                                                                    │                                                                                         
+    "label": "Merge small memory mappings",                                                                                                                                                                            │                                                                                         
+    "mapMergeShim": true,                                                                                                                                                                                              │                                                                                         
+    "games": {                                                                                                                                                                                                         │                                No changes this session                                  
+      "1285920": "VR Skater"                                                                                                                                                                                            │                                                                                         
+    },                                                                                                                                                                                                                 │                                                                                         
+    "source": "WinlatorXR"                                                                                                                                                                                             │                                                                                         
+  },
     {
       "label": "Start in VR",
       "args": "-vr",
