@@ -474,7 +474,7 @@
       "source": "WinlatorXR"
     },
     {
-      "label": "Turn off DXVK's graphics pipeline libraries (the VR mod does not start on DXVK 2.7 and newer with Turnip)",
+      "label": "Quest 3 only: turn off DXVK's graphics pipeline libraries (the VR mod does not start on DXVK 2.7 and newer with Turnip)",
       "env": {
         "DXVK_CONFIG": "dxvk.enableGraphicsPipelineLibrary=False"
       },
