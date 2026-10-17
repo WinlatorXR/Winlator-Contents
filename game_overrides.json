@@ -11,7 +11,8 @@
     "teardown.exe": "1167630",
     "FarCry4.exe": "298110",
     "witcher2.exe": "20920",
-    "prototype2.exe": "115320"
+    "prototype2.exe": "115320",
+    "Painkiller.exe": "39530"
   },
   "fixes": [
     {
@@ -469,6 +470,16 @@
       "pcvrController": "/oculus/touch_controller",
       "games": {
         "1036260": "Journey for Elysium"
+      },
+      "source": "WinlatorXR"
+      },
+    {
+      "label": "Turn off DXVK's graphics pipeline libraries (the VR mod does not start on DXVK 2.7 and newer with Turnip)",
+      "env": {
+        "DXVK_CONFIG": "dxvk.enableGraphicsPipelineLibrary=False"
+      },
+      "games": {
+        "39530": "Painkiller: Black Edition"
       },
       "source": "WinlatorXR"
     }
