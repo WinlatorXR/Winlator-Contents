@@ -472,7 +472,7 @@
         "1036260": "Journey for Elysium"
       },
       "source": "WinlatorXR"
-      },
+    },
     {
       "label": "Turn off DXVK's graphics pipeline libraries (the VR mod does not start on DXVK 2.7 and newer with Turnip)",
       "env": {
