@@ -486,6 +486,9 @@
     {
       "label": "Turn off esync (the game runs out of file handles and its map downloads fail)",
       "esyncOff": true,
+      "env": {
+        "WINEESYNC": "0"
+      },
       "games": {
         "348250": "Google Earth VR"
       },
