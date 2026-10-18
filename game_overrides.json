@@ -482,6 +482,13 @@
         "39530": "Painkiller: Black Edition"
       },
       "source": "WinlatorXR"
-    }
+    },
+    {
+      "label": "Turn off esync (the game runs out of file handles and its map downloads fail)",
+      "esyncOff": true,
+      "games": {
+        "348250": "Google Earth VR"
+      },
+      "source": "WinlatorXR"
   ]
 }
