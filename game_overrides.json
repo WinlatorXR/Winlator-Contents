@@ -459,8 +459,6 @@
       "label": "Use the game window instead of direct PC VR frames (OpenGL game)",
       "pcvrDirect": false,
       "games": {
-        "906120": "POLYBIUS",
-        "3025280": "Swingmania"
       },
       "source": "WinlatorXR"
     },
