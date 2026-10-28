@@ -50,13 +50,6 @@
 
   {
     "type": "Runtime",
-    "verName": "Ajay Prefix Pro v1.8",
-    "verCode": "1",
-    "remoteUrl": "https://github.com/ajay9634/Ajay-prefix/releases/download/v1.8_offline/Ajay_Prefix_Pro_v1.8_offline_Installer.exe"
-  },
-
-  {
-    "type": "Runtime",
     "verName": "Visual C++ x64",
     "verCode": "1",
     "remoteUrl": "https://aka.ms/vs/17/release/vc_redist.x64.exe"
