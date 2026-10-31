@@ -12,7 +12,8 @@
     "FarCry4.exe": "298110",
     "witcher2.exe": "20920",
     "prototype2.exe": "115320",
-    "Painkiller.exe": "39530"
+    "Painkiller.exe": "39530",
+    "Max Payne 2 VR.exe": "12150"
   },
   "fixes": [
     {
@@ -488,6 +489,21 @@
       },
       "games": {
         "348250": "Google Earth VR"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "Max Payne 2 VR mod: DXVK 3.1, the mod's own dinput.dll (it carries the controller input) and Box64 (under FEXCore the mod can't hook the game, so there are no VR hands and the menu stays stuck to the face)",
+      "pcvr": true,
+      "emulator": "box64",
+      "dlls": {
+        "dinput": "n,b"
+      },
+      "dxvk": {
+        "arm64ec": "3.1.1-gplasync-arm64ec-wxr"
+      },
+      "games": {
+        "12150": "Max Payne 2: The Fall of Max Payne"
       },
       "source": "WinlatorXR"
     }
