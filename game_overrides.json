@@ -13,7 +13,8 @@
     "witcher2.exe": "20920",
     "prototype2.exe": "115320",
     "Painkiller.exe": "39530",
-    "Max Payne 2 VR.exe": "12150"
+    "Max Payne 2 VR.exe": "12150",
+    "DOOMVFRx64.exe": "650000"
   },
   "fixes": [
     {
@@ -504,6 +505,19 @@
       },
       "games": {
         "12150": "Max Payne 2: The Fall of Max Payne"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "DOOM VFR: start in a 1280x720 window with the swapchain it expects (fifo present mode for the exact image count, and VK_SUBOPTIMAL_KHR ignored), otherwise it exits at start-up",
+      "pcvr": true,
+      "env": {
+        "MESA_VK_WSI_PRESENT_MODE": "fifo",
+        "WXR_IGNORE_SUBOPTIMAL": "1"
+      },
+      "args": "+r_fullscreen 0 +r_windowWidth 1280 +r_windowHeight 720",
+      "games": {
+        "650000": "DOOM VFR"
       },
       "source": "WinlatorXR"
     }
