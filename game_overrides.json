@@ -14,7 +14,8 @@
     "prototype2.exe": "115320",
     "Painkiller.exe": "39530",
     "Max Payne 2 VR.exe": "12150",
-    "DOOMVFRx64.exe": "650000"
+    "DOOMVFRx64.exe": "650000",
+    "Dead Space.exe": "17470"
   },
   "fixes": [
     {
@@ -518,6 +519,20 @@
       "args": "+r_fullscreen 0 +r_windowWidth 1280 +r_windowHeight 720",
       "games": {
         "650000": "DOOM VFR"
+      },
+      "source": "WinlatorXR"
+    },
+    {
+      "label": "Dead Space VR mod (DSVR): load the mod's own dinput8.dll and give the game 4 GB of memory (the mod's installer patches the exe with PowerShell, which Wine doesn't have; leave the Steam client on so the unpatched exe starts)",
+      "pcvr": true,
+      "env": {
+        "WINE_LARGE_ADDRESS_AWARE": "1"
+      },
+      "dlls": {
+        "dinput8": "n,b"
+      },
+      "games": {
+        "17470": "Dead Space"
       },
       "source": "WinlatorXR"
     }
