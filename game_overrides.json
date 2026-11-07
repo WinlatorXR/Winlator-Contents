@@ -523,8 +523,9 @@
       "source": "WinlatorXR"
     },
     {
-      "label": "Dead Space VR mod (DSVR): load the mod's own dinput8.dll and give the game 4 GB of memory (the mod's installer patches the exe with PowerShell, which Wine doesn't have; leave the Steam client on so the unpatched exe starts)",
+      "label": "Dead Space VR mod (DSVR): load the mod's own dinput8.dll, give the game 4 GB of memory and turn off the Wine check in the mod's dgVoodoo, which crashes the game when the 3D device is made (install the mod first; the mod's installer patches the exe with PowerShell, which Wine doesn't have; leave the Steam client on so the unpatched exe starts)",
       "pcvr": true,
+      "dgvoodooWineFix": true,
       "env": {
         "WINE_LARGE_ADDRESS_AWARE": "1"
       },
