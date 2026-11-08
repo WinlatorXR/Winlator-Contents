@@ -17,6 +17,27 @@
     "DOOMVFRx64.exe": "650000",
     "Dead Space.exe": "17470"
   },
+  "xrKeys": [
+    {
+      "label": "Half-Life 2 keys",
+      "games": {
+        "220": "Half-Life 2"
+      },
+      "keys": {
+        "THUMBSTICK_UP": "W",
+        "THUMBSTICK_DOWN": "S",
+        "THUMBSTICK_LEFT": "A",
+        "THUMBSTICK_RIGHT": "D",
+        "BUTTON_A": "SPACE",
+        "BUTTON_B": "CTRL_L",
+        "BUTTON_X": "E",
+        "BUTTON_Y": "R",
+        "BUTTON_GRIP": "SHIFT_L",
+        "BUTTON_TRIGGER": "F",
+        "THUMBSTICK_PRESS": "Q"
+      }
+    }
+  ],
   "fixes": [
     {
       "label": "Stop OpenSSL crashing on newer CPU features",
